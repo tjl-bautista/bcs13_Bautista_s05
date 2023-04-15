@@ -17,7 +17,7 @@ student_name = []
 final_grade = []
 letter_grade = []
 
-for i in range(2):
+for i in range(5):
     print(f"\n[[Student {i+1}]] ")
     student_name.append(input("Enter the Student Name: "))
 
