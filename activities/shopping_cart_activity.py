@@ -18,8 +18,13 @@ Instructions:
 shopping_cart = {}
 while True:
 
-	add_cart_item = input("\nChoose an item to add to your cart : ")
-	add_cart_price = float(input(f"What is the price of \"{add_cart_item}\"($) : "))
+	while True:
+		add_cart_item = input("\nChoose an item to add to your cart : ")
+		add_cart_price = float(input(f"What is the price of \"{add_cart_item}\" ($) : "))
+		if add_cart_item != "" and add_cart_price > 0:
+			break
+		else:
+			print("\nPlease input a valid item and price!")
 
 	shopping_cart[add_cart_item] = add_cart_price
 
