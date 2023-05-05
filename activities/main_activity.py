@@ -45,4 +45,4 @@ print("\n\n\n\n")
 print('%-2s%-18s%-18s%-12s' % (" ","Student Name", "Average Grade", "Letter Grade"))
 print("____________________________________________________")
 for a in range(5):
-    print('%-5s%-11s%-8s%-11s%-8s%-12s' % (" ", student_name[a], "|" ,round(final_grade[a], 1), "|", letter_grade[a]))
+    print('%-5s%-11s%-8s%-11s%-8s%-12s' % (" ", student_name[a], "|" ,round(final_grade[a], 1), "|", letter_grade[a])) 
