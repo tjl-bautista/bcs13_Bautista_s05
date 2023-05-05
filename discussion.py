@@ -65,3 +65,36 @@ else:
      print(f"{test_number} is a negative number.")
 
 # Note that 'elif' is the shorthand for 'else if' in other programming language.
+
+'''
+    while condition:
+        - code to be executed while the condition is true
+        - the condition is a boolean expression that determines whether the loop should continue executing or not.
+'''
+
+
+i = 1
+
+while i <= 5:
+     print(f"Current count {i}")
+     i += 1
+
+# while True:
+#     print("This is an infinite loop!")
+# To exit an infinite loop, press ctrl + C
+
+'''
+    For loops are used for iterating over a sequence (such as lists, tuple, or string) or other iterable object and execute a block of code for each element in the sequence
+
+    for element in sequence:
+        - code to be executed for each element in sequence
+        - element is a variable that will take on the value of each element in the sequence
+        - sequence any iterable object, such as lists or string that contains the elements we want to  iterate
+'''
+
+fruits = ['apple', 'banana','cherry']
+
+
+
+for fruit in fruits:
+     print(fruit)
