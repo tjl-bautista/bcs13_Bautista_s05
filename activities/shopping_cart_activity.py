@@ -37,4 +37,3 @@ for price in shopping_cart:
 	sum += shopping_cart[price]
 
 print(f"\nThe total price of your items is ${sum} ")
-	
